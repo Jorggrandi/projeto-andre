@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Sora:wght@100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333232;
+}
+#wrapper{
+    width: 30%;
+    display: flex;
+    border: 1px solid #969696;
+    flex-direction: column;
+    padding: 16px 24px;
+    border-radius: 4px;
+    background-color: #727070;
+}
+h1{
+    text-align: center;
+    font-size: 42px;
+    color: #FFF;
+    font-family: "Sora";
+}
+p{
+    text-align: center;
+    margin-top: 4px;
+    font-size: 16px;
+    color: #d3d1d1;
+    font-family: "JetBrains Mono";
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    gap: 10px;
+}   
+button{
+    width: 90%;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 12px;
+    background-color: #0c295f;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    color: #FFF;
+    cursor: pointer;
+}
+input{
+    width: 100%;
+    height: 34px;
+    border: 1px solid transparent;
+    padding: 8px 10px;
+    border-radius: 6px;
+}
+.input-box{
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+label{
+    font-family: "JetBrains Mono";
+    font-size: 14px;
+}
