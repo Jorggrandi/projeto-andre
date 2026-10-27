@@ -17,25 +17,33 @@
             <form>
                 <div class="input-box">
                     <label for="email-input">Email</label>
-                    <input type="email" name="email-input" id="email-input" required>
+                    <input type="email" name="email-input" id="email-input" required placeholder="exemplo@email.com">
                 </div>
 
-                <div class="input-box">
-                    <label for="password-input">Senha</label>
-                    <input type="password" name="password-input" id="password-input" required>
-                </div>
+
                 <div class="input-box">
                     <label for="tel-input">Telefone</label>
-                    <input type="tel" name="tel-input" id="tel-input" required>
+                    <input type="tel" name="tel-input" id="tel-input" required placeholder="554199999123" minlength="13">
                 </div>
                 <div class="input-box">
                     <label for="cpf-input">CPF</label>
-                    <input type="text" name="cpf-input" id="cpf-input" required>
+                    <input type="text" name="cpf-input" id="cpf-input" required placeholder="123.456.789-91" maxlength="14">
                 </div>
                 <div class="input-box">
                     <label for="birthday-input">Data de nascimento</label>
                     <input type="date" name="birthday-input" id="birthday-input" required>
                 </div>
+
+                <div class="input-box">
+                    <label for="password-input">Senha</label>
+                    <input type="password" name="password-input" id="password-input" required placeholder="@Password321" minlength="8">
+                </div>
+                <div class="input-box">
+                    <label for="password-input">Confirme sua senha</label>
+                    <input type="password" name="password-input" id="password2-input" required placeholder="@Password321" minlength="8">
+                    <p id="returnMsg"></p>
+                </div>
+
                 <button>Entrar</button>
             </form>
         </div>

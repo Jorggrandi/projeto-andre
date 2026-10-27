@@ -14,16 +14,16 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #333232;
+    background: url("https://www.magnific.com/br/vetores-gratis/textura-de-linha-de-grade-de-quadro-de-arame-abstrato-em-fundo-escuro_381370666.htm#fromView=keyword&page=1&position=1&uuid=b0844fe8-c4d4-475e-9af2-2d01f2a4396d&track=ais_hybrid&query=Background+preto+quadriculado") ;
 }
 #wrapper{
     width: 30%;
     display: flex;
-    border: 1px solid #969696;
+    border: 1px solid #353333;
     flex-direction: column;
-    padding: 16px 24px;
+    padding: 20px 24px;
     border-radius: 4px;
-    background-color: #727070;
+    background-color: #191919;
 }
 h1{
     text-align: center;
@@ -47,26 +47,31 @@ form{
 }   
 button{
     width: 90%;
-    padding: 10px;
+    padding: 12px 10px;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     margin-top: 12px;
-    background-color: #0c295f;
+    background-color: #143777;
     border: 1px solid transparent;
     border-radius: 6px;
     color: #FFF;
     cursor: pointer;
+    font-family: "Sora";
+    transition: 250ms ease-out;
 }
 input{
     width: 100%;
-    height: 34px;
+    height: 38px;
     border: 1px solid transparent;
     padding: 8px 10px;
+    background-color: #353333;
+    color: #d3d1d1;
     border-radius: 6px;
+    transition: 175ms ease-in-out;
 }
 .input-box{
-    gap: 8px;
+    gap: 10px;
     display: flex;
     flex-direction: column;
     width: 90%;
@@ -74,4 +79,25 @@ input{
 label{
     font-family: "JetBrains Mono";
     font-size: 14px;
+    color: #b8b6b6;
+}
+.cad-link p{
+    margin-top: 12px;
+    color: #b8b6b6;
+    font-size: 14px;
+}
+.cad-link p >a {
+    text-decoration: none;
+    font-weight: 650;
+    color: #b8b6b6;
+    font-size: 14px;
+}
+
+input:hover, input:active, input:focus{
+    border-color: #b8b6b6;
+}
+
+button:hover, button:active, button:focus{
+    background-color: transparent;
+    border-color: #FFF;
 }
